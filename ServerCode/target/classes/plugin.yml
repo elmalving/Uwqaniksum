@@ -1,0 +1,11 @@
+name: Uwqaniksum
+version: '1.0-SNAPSHOT'
+main: egoniks.uwqaniksum.Uwqaniksum
+api-version: '1.20'
+
+commands:
+  giveweapon:
+    description: Gives weapon to player.
+#    usage: /<command> <name>
+    aliases:
+      - gw

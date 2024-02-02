@@ -1,0 +1,5 @@
+egoniks\uwqaniksum\Uwqaniksum.class
+egoniks\uwqaniksum\Weapons\HandleCMD.class
+egoniks\uwqaniksum\Weapons\ArmsHandler.class
+egoniks\uwqaniksum\Enemies\Events\EventTakeDamage.class
+egoniks\uwqaniksum\Weapons\Weapon.class
