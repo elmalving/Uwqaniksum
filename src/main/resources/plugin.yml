@@ -1,0 +1,4 @@
+name: Uwqaniksum
+version: '${project.version}'
+main: egoniks.uwqaniksum.Uwqaniksum
+api-version: '1.20'
