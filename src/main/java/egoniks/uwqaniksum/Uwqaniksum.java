@@ -7,7 +7,7 @@ public final class Uwqaniksum extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-
+        //ку дебилы
     }
 
     @Override
