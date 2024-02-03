@@ -7,12 +7,16 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.persistence.PersistentDataType;
 
 public class ArmsHandler {
-    public static void handle(Weapon weapon, Player player){
+    public static void handle(Weapon weapon, Player player) {
+
         ItemStack weaponItem = new ItemStack(weapon.getWeaponMaterial());
+
         ItemMeta metaWeaponItem = weaponItem.getItemMeta();
         metaWeaponItem.getPersistentDataContainer().set(NamespacedKey.fromString("name"), PersistentDataType.STRING, weapon.name());
         metaWeaponItem.setDisplayName(weapon.getWeaponName());
         weaponItem.setItemMeta(metaWeaponItem);
+
         player.getInventory().addItem(weaponItem);
+
     }
 }

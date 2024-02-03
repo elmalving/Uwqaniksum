@@ -6,6 +6,14 @@ api-version: '1.20'
 commands:
   giveweapon:
     description: Gives weapon to player.
-#    usage: /<command> <name>
     aliases:
       - gw
+
+  spawnmob:
+    description: Spawn mob near player.
+    aliases:
+      - sm
+
+  generatehp:
+    aliases:
+      - ghp

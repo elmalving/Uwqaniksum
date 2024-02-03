@@ -1,26 +1,26 @@
-package egoniks.uwqaniksum.Weapons;
+package egoniks.uwqaniksum.Enemies;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class HandleCMD implements CommandExecutor {
+public class CreateEnemyCMD implements CommandExecutor {
+
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
         if (commandSender instanceof Player) {
             Player player = (Player) commandSender;
             if (strings.length == 0) {
-                player.sendMessage("Укажи имя оружия");
+                player.sendMessage("Укажи имя моба");
                 return true;
             }
             try {
-                Weapon weapon = Weapon.valueOf(strings[0]);
-                ArmsHandler.handle(weapon, player);
-
+                Enemies enemy = Enemies.valueOf(strings[0]);
+                SettingEnemy.setEnemy(player, enemy);
                 return true;
             } catch (IllegalArgumentException e) {
-                player.sendMessage("Неверное имя оружия");
+                player.sendMessage("Неверное имя моба");
                 return true;
             }
         }
