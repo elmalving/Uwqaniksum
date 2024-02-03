@@ -2,7 +2,6 @@ package egoniks.uwqaniksum;
 
 import egoniks.uwqaniksum.Enemies.CreateEnemyCMD;
 import egoniks.uwqaniksum.Enemies.Events.EventTakeDamage;
-import egoniks.uwqaniksum.Enemies.HealthBar;
 import egoniks.uwqaniksum.Weapons.HandleCMD;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
