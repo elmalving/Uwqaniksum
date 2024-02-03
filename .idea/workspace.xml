@@ -5,34 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a8cf518-0a47-4ee4-8dc9-e1669bc94f76" name="Changes" comment="mama egoniksa">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Enemies/CreateEnemyCMD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Enemies/HealthBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Enemies/SettingEnemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Tests/TestCMD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Tests/TestEvent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerCode/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Enemies/Enemies.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Enemies/Enemies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Enemies/Events/EventTakeDamage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Enemies/Events/EventTakeDamage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Enemies/HealthBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Enemies/HealthBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Enemies/SettingEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Enemies/SettingEnemy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Uwqaniksum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Uwqaniksum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Weapons/ArmsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Weapons/ArmsHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Weapons/HandleCMD.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Weapons/HandleCMD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Weapons/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/src/main/java/egoniks/uwqaniksum/Weapons/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerCode/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/src/main/resources/plugin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServerCode/target/Uwqaniksum-1.0-SNAPSHOT-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/target/Uwqaniksum-1.0-SNAPSHOT-shaded.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServerCode/target/Uwqaniksum-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/target/Uwqaniksum-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServerCode/target/classes/egoniks/uwqaniksum/Enemies/Events/EventTakeDamage.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/target/classes/egoniks/uwqaniksum/Enemies/Events/EventTakeDamage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerCode/target/classes/egoniks/uwqaniksum/Enemies/SettingEnemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/target/classes/egoniks/uwqaniksum/Enemies/SettingEnemy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerCode/target/classes/egoniks/uwqaniksum/Player/HealthBar.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ServerCode/target/classes/egoniks/uwqaniksum/Uwqaniksum.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/target/classes/egoniks/uwqaniksum/Uwqaniksum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerCode/target/classes/egoniks/uwqaniksum/Weapons/ArmsHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/target/classes/egoniks/uwqaniksum/Weapons/ArmsHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerCode/target/classes/egoniks/uwqaniksum/Weapons/HandleCMD.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/target/classes/egoniks/uwqaniksum/Weapons/HandleCMD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerCode/target/classes/egoniks/uwqaniksum/Weapons/Weapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/target/classes/egoniks/uwqaniksum/Weapons/Weapon.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServerCode/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/target/classes/plugin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServerCode/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServerCode/target/original-Uwqaniksum-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ServerCode/target/original-Uwqaniksum-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Uwqaniksum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Uwqaniksum.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +135,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706899300445</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mama egoniksa">
+      <option name="closed" value="true" />
+      <created>1706993105614</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706993105614</updated>
+    </task>
+    <task id="LOCAL-00005" summary="mama egoniksa">
+      <option name="closed" value="true" />
+      <created>1706993123514</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706993123514</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

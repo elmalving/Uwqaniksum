@@ -1,5 +1,5 @@
 package egoniks.uwqaniksum.Tests;
 
-public class TestCMD{
+public class TestCMD {
 
 }

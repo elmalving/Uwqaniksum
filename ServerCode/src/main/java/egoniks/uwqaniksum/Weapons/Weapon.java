@@ -8,11 +8,12 @@ import org.bukkit.persistence.PersistentDataType;
 
 public enum Weapon {
 
-    TESTWEAPON(100, "TestWeapon", Material.STICK);
+    TESTWEAPON(100, "TestWeapon", Material.DIAMOND_SWORD);
 
     private double damage;
     private String weaponName;
     private Material weaponMaterial;
+
     Weapon(double damage, String weaponName, Material weaponMaterial) {
         this.damage = damage;
         this.weaponName = weaponName;

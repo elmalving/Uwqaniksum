@@ -5,26 +5,26 @@ import org.bukkit.entity.EntityType;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.persistence.PersistentDataType;
 
-public enum Enemies {
+public enum Enemy {
 
     TESTENEMI(500, "TestMob", EntityType.ZOMBIE);
     private int hp;
     private String nameMob;
     private EntityType typeMob;
 
-    Enemies(int hp, String nameMob, EntityType typeMob) {
+    Enemy(int hp, String nameMob, EntityType typeMob) {
         this.hp = hp;
         this.nameMob = nameMob;
         this.typeMob = typeMob;
     }
 
-    public static Enemies getEnemyFrom(LivingEntity entity) {
+    public static Enemy getEnemyFrom(LivingEntity entity) {
         String name = entity.getPersistentDataContainer().get(NamespacedKey.fromString("name"), PersistentDataType.STRING);
         if (name == null) {
             return null;
         }
 
-        Enemies enemy = valueOf(name);
+        Enemy enemy = valueOf(name);
         return enemy;
     }
 

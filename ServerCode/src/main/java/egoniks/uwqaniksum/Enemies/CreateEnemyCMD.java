@@ -16,7 +16,7 @@ public class CreateEnemyCMD implements CommandExecutor {
                 return true;
             }
             try {
-                Enemies enemy = Enemies.valueOf(strings[0]);
+                Enemy enemy = Enemy.valueOf(strings[0]);
                 SettingEnemy.setEnemy(player, enemy);
                 return true;
             } catch (IllegalArgumentException e) {

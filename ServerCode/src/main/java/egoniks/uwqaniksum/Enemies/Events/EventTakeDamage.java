@@ -17,7 +17,6 @@ public class EventTakeDamage implements Listener {
             Weapon weapon = Weapon.getWeaponFrom(player.getInventory().getItemInMainHand());
             double damage = weapon.getDamage();
             event.setDamage(damage);
-
         }
     }
 }

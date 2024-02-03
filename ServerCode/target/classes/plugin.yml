@@ -13,7 +13,3 @@ commands:
     description: Spawn mob near player.
     aliases:
       - sm
-
-  generatehp:
-    aliases:
-      - ghp
