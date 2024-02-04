@@ -1,0 +1,11 @@
+egoniks\uwqaniksum\Enemies\Enemy.class
+egoniks\uwqaniksum\Uwqaniksum.class
+egoniks\uwqaniksum\Weapons\HandleCMD.class
+egoniks\uwqaniksum\Enemies\Events\EventTakeDamage.class
+egoniks\uwqaniksum\Enemies\HealthBar.class
+egoniks\uwqaniksum\Weapons\Weapon.class
+egoniks\uwqaniksum\Tests\TestCMD.class
+egoniks\uwqaniksum\Enemies\CreateEnemyCMD.class
+egoniks\uwqaniksum\Weapons\ArmsHandler.class
+egoniks\uwqaniksum\Enemies\SettingEnemy.class
+egoniks\uwqaniksum\Tests\TestEvent.class
