@@ -1,5 +1,7 @@
 package egoniks.uwqaniksum;
 
+import egoniks.uwqaniksum.Allys.CreateAllyCMD;
+import egoniks.uwqaniksum.Allys.Events.EventInventory;
 import egoniks.uwqaniksum.Enemies.CreateEnemyCMD;
 import egoniks.uwqaniksum.Enemies.Events.EventTakeDamage;
 import egoniks.uwqaniksum.Enemies.HealthBar;
@@ -20,5 +22,7 @@ public final class Uwqaniksum extends JavaPlugin {
 
         Bukkit.getPluginManager().registerEvents(new HealthBar(), this);
 
+        Bukkit.getPluginManager().registerEvents(new EventInventory(), this);
+        getCommand("spawnquester").setExecutor(new CreateAllyCMD());
     }
 }

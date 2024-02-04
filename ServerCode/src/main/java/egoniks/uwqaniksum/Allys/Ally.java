@@ -1,29 +1,17 @@
-package egoniks.uwqaniksum.Enemies;
+package egoniks.uwqaniksum.Allys;
 
-import org.bukkit.NamespacedKey;
 import org.bukkit.entity.EntityType;
-import org.bukkit.entity.LivingEntity;
-import org.bukkit.persistence.PersistentDataType;
+import org.bukkit.inventory.Inventory;
 
-public enum Enemy {
+public enum Ally {
+    TESTQUESTER("TestQuester", EntityType.VILLAGER);
 
-    TESTENEMI(500, "TestMob", EntityType.ZOMBIE);
-    private int hp;
     private String nameMob;
     private EntityType typeMob;
 
-    Enemy(int hp, String nameMob, EntityType typeMob) {
-        this.hp = hp;
+    Ally(String nameMob, EntityType typeMob) {
         this.nameMob = nameMob;
         this.typeMob = typeMob;
-    }
-
-    public int getHp() {
-        return hp;
-    }
-
-    public void setHp(int hp) {
-        this.hp = hp;
     }
 
     public String getNameMob() {

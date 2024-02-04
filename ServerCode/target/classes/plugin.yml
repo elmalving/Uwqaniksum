@@ -13,3 +13,8 @@ commands:
     description: Spawn mob near player.
     aliases:
       - sm
+
+  spawnquester:
+    ddescription: Spawn quester near player.
+    aliases:
+      - sq
