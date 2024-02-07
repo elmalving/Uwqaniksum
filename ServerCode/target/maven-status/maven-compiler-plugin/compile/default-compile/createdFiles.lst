@@ -1,6 +1,9 @@
 egoniks\uwqaniksum\Allys\Inventories\TestQuesterInventory.class
 egoniks\uwqaniksum\Enemies\Enemy.class
+egoniks\uwqaniksum\Allys\Inventories\Quest.class
+egoniks\uwqaniksum\Allys\Inventories\LogicQuestsForOpenInventory.class
 egoniks\uwqaniksum\Weapons\HandleCMD.class
+egoniks\uwqaniksum\Allys\Inventories\InvEvents\EventInventory.class
 egoniks\uwqaniksum\Weapons\Weapon.class
 egoniks\uwqaniksum\Allys\Inventories\Util.class
 egoniks\uwqaniksum\Allys\CreateAllyCMD.class
@@ -9,9 +12,10 @@ egoniks\uwqaniksum\Uwqaniksum.class
 egoniks\uwqaniksum\Enemies\Events\EventTakeDamage.class
 egoniks\uwqaniksum\Enemies\HealthBar.class
 egoniks\uwqaniksum\Tests\TestCMD.class
-egoniks\uwqaniksum\Allys\Events\EventInventory.class
 egoniks\uwqaniksum\Enemies\CreateEnemyCMD.class
 egoniks\uwqaniksum\Allys\SettingAlly.class
 egoniks\uwqaniksum\Weapons\ArmsHandler.class
+egoniks\uwqaniksum\Allys\Inventories\InvEvents\EntityDie.class
 egoniks\uwqaniksum\Allys\Ally.class
+egoniks\uwqaniksum\Allys\Inventories\LogicQuests.class
 egoniks\uwqaniksum\Tests\TestEvent.class

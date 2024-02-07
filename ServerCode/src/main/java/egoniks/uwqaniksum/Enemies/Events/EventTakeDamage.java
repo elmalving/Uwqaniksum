@@ -11,12 +11,13 @@ public class EventTakeDamage implements Listener {
     public void takeDamage(EntityDamageByEntityEvent event) {
 
         if (event.getDamager() instanceof Player) {
-
             Player player = (Player) event.getDamager();
 
             Weapon weapon = Weapon.getWeaponFrom(player.getInventory().getItemInMainHand());
             double damage = weapon.getDamage();
             event.setDamage(damage);
+
+
         }
     }
 }

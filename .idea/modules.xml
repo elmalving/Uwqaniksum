@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ServerCode/Uwqaniksum.iml" filepath="$PROJECT_DIR$/ServerCode/Uwqaniksum.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/asfas.iml" filepath="$PROJECT_DIR$/.idea/asfas.iml" />
     </modules>
   </component>
